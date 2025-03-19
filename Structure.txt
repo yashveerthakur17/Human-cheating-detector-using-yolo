@@ -1,0 +1,13 @@
+cheating-surveillance/
+│── models/                 # Contains trained YOLO weights and shape predictor model
+    |__ best_yolov8.pt
+    |__ best_yolov12.pt
+    |__ shape_predictor_68_face_landmarks.dat
+│── log                     # Samples
+│── main.py                 # Entry point
+│── requirements.txt        # Requirements
+│── README.md               # Documentation
+│── head_pose.py            # Head tracker
+│── eye_movement.py         # Gaze observer
+│── mobile_detection.py     # Mobile detection
+│── Demo_vid/               # Folder containing illustrations
